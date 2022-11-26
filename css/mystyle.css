@@ -1,0 +1,344 @@
+/* 全ページ共通 */
+
+body {
+  background-color: rgb(72, 72, 72);
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+  color: rgb(182, 182, 182);
+}
+header,footer {
+  height: 66px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+p, ul ,li {
+  margin: 0;
+}
+
+a {
+  display: flex;
+  color:#000;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+/* ここからトップページ */
+main img {
+  border-radius: 50%;
+  position: relative;
+  z-index: 10;
+}
+
+.main-img {
+  font-size: 2vw;
+  width: auto;
+  color:rgb(230, 227, 220);
+  text-align: center;
+  position: relative;
+}
+.hind-message {
+  z-index: 0;
+  font-size: 3vw;
+  position: absolute;
+  top:45%;
+  left: 37%;
+}
+
+main img:hover {
+  opacity:0;
+  transition: 1s;
+}
+
+.circle {
+  border-radius: 50%;
+  margin : 30px 0;
+}
+
+.circle a {
+  justify-content: center;
+  flex-direction: column;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 7px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.green {
+  background-color:#228b22;
+}
+
+.blue {
+  background-color: #191970;
+}
+
+.red {
+  background-color: deeppink;
+}
+
+.yellow {
+  background-color: gold;
+}
+
+.circle:hover {
+  border-radius: 0%;
+  transition: 2s;
+}
+
+.circle:active {
+  border-radius: 0%;
+  transform: rotate(360deg);
+  transition: 0.7s;
+  /* 回転仕切る前に移動してしまう・・・ */
+}
+
+.current a {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+
+}
+
+/* ここからプロフィールページ */
+
+
+#profile-page header {
+  background-color: #191970;
+  
+}
+
+.current header a {
+  text-decoration: none;
+  color: rgb(230, 227, 220);
+  font-size: 37px;
+  padding-left: 30px;
+}
+header p {
+  color: rgb(230, 227, 220);
+  font-size: 4vw;
+  padding-right: 30px;
+}
+
+nav ul {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 0;
+}
+
+
+
+.current-page { 
+  width: 110px;
+  height: 110px;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin : 30px 0;
+}
+
+
+#profile-page.current-page {
+  background-color: #191970;
+}
+
+
+.container ul, nav ul {
+  list-style-type: none;
+}
+
+
+.introduce {
+  border: 7px double #191970;
+  margin: 15px;
+}
+
+.my-image {
+  margin:15px auto;
+  width: 45%;
+}
+
+.my-image img {
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+  
+}
+h2 {
+  font-family: Ronde-B-Square;
+  font-size: 3vw;
+  background-color: #191970;
+  color:rgb(230, 227, 220);
+  text-align: center;
+  padding: 8px 0;
+}
+
+.introduce p {
+  font-size: 2vw;
+  line-height: 1.7;
+  margin: 0 20px;
+}
+
+
+.licence li {
+  border-left: 4px solid #191970;
+  border-bottom: 2px solid #191970;
+  margin: 5px 0px;
+}
+.p3image {
+  width: 30%;
+  height: 30%;
+}
+
+.licence-item {
+  display: flex;
+  justify-content: space-around;
+}
+#profile-page footer {
+  background-color: #191970;
+}
+/* works ページココから↓↓ */
+#works-page header,#works-page footer, .works h2{
+  background-color:#228b22;
+  
+}
+.works {
+  border :7px double #228b22;
+}
+
+#works-page figure{
+  display:flex;
+  border:3px dashed beige;
+  padding:15px;
+  margin-left: 0;
+}
+.works-list li {
+  list-style-type: none;
+}
+figure img {
+  width:50%;
+}
+ul .link { 
+  border-radius: 0px;
+  width: 100px;
+  height: 30px;
+  padding:3px 15px;
+  margin-bottom: 5px;
+  box-shadow: 4px 4px #000;
+}
+ul .link:hover {
+  opacity: 0.7;
+}
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul .notion{
+  background-color: antiquewhite;
+}
+figcaption {
+  margin-left: 50px;
+  
+}
+ul .git {
+  background-color: #228b22;
+  color:antiquewhite;
+}
+
+span {
+  letter-spacing: 0.5em;
+  font-weight: bold;
+  color:#228b22
+}
+/* works ページココまで↑↑ */
+
+/* ここから未来へページ */
+
+#vision-page header,#vision-page footer, .vision h2 {
+  background-color: deeppink;
+}
+
+.vision {
+  border :7px double deeppink;
+}
+
+
+
+#vision-page .current-page {
+  background-color: deeppink;
+}
+
+.slide-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.slide-list li{
+  margin: 30px auto;
+}
+
+/* 未来ページここまで↑↑ */
+
+@media (max-width:666px) {
+  .button {
+    display: flex;
+    flex-direction: column;
+  }
+ .link {
+  margin: 5px 0;
+ }
+  figure {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  figure img {
+    width:100%;
+  }
+  figcaption {
+    margin:15px;
+  }
+}
+
+@media (max-width:500px)  {
+  
+  header h1 {
+    font-size:27px;
+    padding-left:10px;
+  }
+  .current .circle a{
+    font-size: 80%;
+    width: 80px;
+    height: 80px;
+}
+.current-page {
+  font-size: 80%; 
+  width: 80px;
+  height: 80px;
+}
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+}
