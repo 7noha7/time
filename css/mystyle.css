@@ -61,11 +61,14 @@ main img:hover {
   margin : 30px 0;
 }
 
+#top a {
+  width: 150px;
+  height: 150px;
+}
 .circle a {
   justify-content: center;
   flex-direction: column;
-  width: 150px;
-  height: 150px;
+  
   text-align: center;
   font-size: 20px;
   letter-spacing: 7px;
@@ -94,7 +97,7 @@ section {
 
 .circle:hover {
   border-radius: 0%;
-  transition: 2s;
+  transition: 1s;
 }
 
 .circle:active {
