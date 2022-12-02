@@ -1,0 +1,72 @@
+body {
+  background-image: url(img/bg-tea.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  margin: 10% auto;
+  border: 4px dashed #f2cc12;
+}
+
+h1 {
+  padding: 5px 70px;
+  text-align: center;
+  color:rgb(218, 149, 89);
+  background-color: rgba(181, 223, 181, 0.7);
+}
+
+.drinkname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  width: 320px;
+  height: 245px;
+  background-repeat: no-repeat;
+  background-image: url(img/frame.png);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.5em;
+  line-height: 10em;
+}
+
+
+#btn {
+  background-color:aquamarine;
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px #15372f;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: rgb(85, 230, 182);
+}
+
+#btn:active {
+  box-shadow: 0 1px;
+  transform: translateY(3px);
+}
+
+@media(max-width:640px) {
+main {
+  width: 98%;
+}
+h1 {
+  width:5em;
+}
+
+
+}
