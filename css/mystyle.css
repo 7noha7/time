@@ -304,6 +304,12 @@ span {
 
 /* 未来ページここまで↑↑ */
 
+
+#appl-page header, #appl-page footer {
+  background-color: gold;
+  
+}
+
 @media (max-width:666px) {
   .button {
     display: flex;
