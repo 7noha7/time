@@ -103,7 +103,7 @@ section {
 }
 
 .yellow {
-  background-color: gold;
+  background-color: rgb(232, 189, 20);
 }
 
 .circle:hover {
@@ -196,7 +196,7 @@ nav ul {
 }
 h2 {
   font-family: Ronde-B-Square;
-  font-size: 3vw;
+  font-size: 27px;
   background-color: #29298a;
   color:rgb(230, 227, 220);
   text-align: center;
@@ -309,20 +309,36 @@ span {
 
 
 #appl-page header, #appl-page footer,#appl-page h2,ul .appli{
-  background-color: gold;
+  background-color: rgb(232, 189, 20);
 }
 
 .appl-list span {
-  color: gold;
+  color: rgb(232, 189, 20);
 }
 
 .appl {
-  border :7px double gold;
+  border :7px double rgb(232, 189, 20);
 }
+
+@media (max-width:925px) {
+ #appl-page .button {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+  }
+  #appl-page .button a:nth-child(3) {
+margin-top:5px;
+ }
+}
+
 @media (max-width:666px) {
   .button {
     display: flex;
     flex-direction: column;
+  }
+  
+  .button a {
+    width: 90%;
   }
  .link {
   margin: 5px 0;
