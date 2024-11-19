@@ -227,12 +227,12 @@ section {
 .current header a {
   text-decoration: none;
   color: rgb(230, 227, 220);
-  font-size: 37px;
+  font-size: 2rem;
   padding-left: 30px;
 }
 header p {
   color: rgb(230, 227, 220);
-  font-size: 4vw;
+  font-size: 1.2rem;
   padding-right: 30px;
 }
 
@@ -425,6 +425,27 @@ margin-top:5px;
 }
 
 @media (max-width:666px) {
+  .introduce {
+    width:80%;
+  }
+
+ header {
+    display:block;
+
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    
+  }
+
+  header p {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+
   .p3image {
     width: 50%; /* 幅を50%に変更 */
     margin: 20px auto; /* 中央揃え */
