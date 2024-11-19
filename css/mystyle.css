@@ -305,12 +305,15 @@ h2 {
 }
 .p3image {
   width: 30%;
-  height: 30%;
+  object-fit: contain;
+  margin:0 30px;
+  max-height: 100%;
 }
 
 .licence-item {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
 }
 #profile-page footer {
   background-color: #29298a;
@@ -420,6 +423,16 @@ margin-top:5px;
 }
 
 @media (max-width:666px) {
+  .p3image {
+    width: 50%; /* 幅を50%に変更 */
+    margin: 20px auto; /* 中央揃え */
+  }
+
+  .licence-item {
+    flex-direction: column; /* 縦並びにする */
+    align-items: center; /* 中央揃え */
+  }
+
   .button {
     display: flex;
     flex-direction: column;
