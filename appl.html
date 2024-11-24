@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="css/mystyle.css">
 <meta name="viewport" content="width=device-width">
 </head>
-<body id="appl-page" class="current">
+<body id="appl-page" class="current text-white">
 <header>
   <h1><a href="index.html">nanohana:time</a></h1>
   <p>{&nbsp;&nbsp;Welcome&nbsp;My&nbsp;World!&nbsp;&nbsp;}</p>
@@ -15,9 +15,9 @@
 
 <nav>
   <ul class="menu-list">
-    <li class="circle blue"><a href="profile.html">Profile</a></li>
-    <li class="circle green"><a href="works.html">Works</a></li>
-    <li class="circle red"><a href="vision.html">Vision</a></li>
+    <li class="circle blue"><a href="profile.html " class="block w-full h-full">Profile</a></li>
+    <li class="circle green w-full h-full"><a href="works.html" class="block w-full h-full">Works</a></li>
+    <li class="circle red " ><a href="vision.html" class="block">Vision</a></li>
     <li class="current-page yellow">Appl
     </a></li>
   </ul>
@@ -29,24 +29,60 @@
 <p>まだ習い始めのJava Scriptを使って王道練習プラス少し装飾です。</p>
 </div>
 
-<ul class="appl-list">
-  <li>
-    <time datetime="2022-12-02">2022.2.Dec</time>
-    <figure><img src="img/tea-app-img.jpg" width="35%" alt="お茶アプリイメージ">
-      <figcaption>＜ホッとtimeドリンクくじ&colon;
-        アプリ＞
-        <div class="button">
+
+<div class="grid gap-6 grid-cols-1 md:grid-cols-2 p-6 text-white">
+  <div class="py-4"> 
+    <div class="w-10/12 md:max-w-md mx-auto my-4 shadow-xl rounded-lg overflow-hidden">
+     <img class="w-full object-cover" src="img/tea-app-img.jpg" alt="お茶アプリイメージ">
+        <time datetime="2022-12-02">2022.2.Dec</time>
+        <div class="text-lg">
+          ＜ホッとtimeドリンクくじ&colon;
+          アプリ＞
+        </div>
+        <button class="bg-yellow-500 font-semibold py-2 px-6 mr-5">
+          <a href="https://7noha7.notion.site/1c95a74131b84e67bca72c2dd334e79a" class="block">Notion→</a>
+          </button>
+          <button class="bg-green-900  font-semibold py-2 px-6">
+
+            <a href="https://github.com/7noha7/time/tree/main/tea-time" class="text-white block">GitHub→</a>
+          </button>
+          <a href="tea-time/index.html" class="appli link"> Appl→</a>
+          <p>VS Codeにて制作。<br>
+            ドットインストールのおみくじレッスンに自分用の使い道と装飾。<br>
+            <span>課題</span><br>
+            ルーレットを止める形にしたい。今日の気分で飲みものリストの中身が変わったり、今後は飲みものリストの追加をデータベースとかも組み合せたり、色々やりたい。<br>
+            <span>UP DATE</span><br>
+            2024.11<br>
+            今日の気分に合わせて飲めるように、ラジオボタンを追加
+          </p>
+        </div>
+</div>
+  <div class="py-4"> 
+    <div class="w-10/12 md:max-w-md mx-auto my-4 shadow-xl rounded-lg overflow-hidden">
+     <img class=" w-full object-cover" src="img/rocket.png" alt="お茶アプリイメージ">
+     <p>現在、準備中<br>2025年春頃予定</p>
+        <!-- <time datetime="2022-12-02">2022.2.Dec</time> -->
+        <div class="text-lg">
+          ＜書籍管理アプリ&colon;
+          BOOK＞
+        </div>
+        <!-- <button class="bg-yellow-500 font-semibold py-2 px-6">
           <a href="https://7noha7.notion.site/1c95a74131b84e67bca72c2dd334e79a" class="notion link">Notion→</a>
-          <a href="https://github.com/7noha7/time/tree/main/tea-time" class="git link">GitHub→</a>
+          </button>
+          <button class="bg-green-900  font-semibold py-2 px-6">
+
+            <a href="https://github.com/7noha7/time/tree/main/tea-time" class="git link">GitHub→</a>
+          </button>
           <a href="tea-time/index.html" class="appli link"> Appl→</a>
         </div>
   <p>VS Codeにて制作。<br>
 ドットインストールのおみくじレッスンに自分用の使い道と装飾。<br>
 <span>課題</span><br>
-ルーレットを止める形にしたい。今日の気分で飲みものリストの中身が変わったり、今後は飲みものリストの追加をデータベースとかも組み合せたり、色々やりたい。</p></figcaption></figure>
-  </li>
-  </ul>
-
+</p>
+</div> -->
+</div>
+</div>
+  </div>
 <footer><p>Enjoy cording!</p></footer>
 </body>
 

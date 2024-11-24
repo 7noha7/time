@@ -1,4 +1,4 @@
-/* 全ページ共通 */
+全ページ共通
 
 body {
   background-image: url('../img/space_topback.jpg');
@@ -107,12 +107,12 @@ footer {
   text-align: center;
 }
 
-figure {
+/* figure {
   display:flex;
   border:3px dashed beige;
   padding:15px;
   margin-left: 0;
-}
+} */
 
 .works-list li, .appl-list li {
   list-style-type: none;
@@ -330,42 +330,16 @@ h2 {
   background-color:#228b22;
   
 }
+
+#works-page,#appl-page, #profile-page ,#vision-page{
+  background-image: url('../img/space_topback.jpg');
+}
+
 .works {
+
   border :7px double #228b22;
 }
 
-figure img {
-  width:50%;
-}
-ul .link { 
-  border-radius: 0px;
-  width: 95px;
-  height: 30px;
-  padding:3px 5px;
-  margin-bottom: 5px;
-  box-shadow: 4px 4px #000;
-}
-ul .link:hover {
-  opacity: 0.7;
-}
-.button {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-}
-
-ul .notion{
-  background-color: antiquewhite;
-}
-figcaption {
-  margin-left: 50px;
-  
-}
-ul .git {
-  background-color: #228b22;
-  color:antiquewhite;
-}
 
 span {
   letter-spacing: 0.5em;
@@ -462,30 +436,20 @@ margin-top:5px;
     align-items: center; /* 中央揃え */
   }
 
-  .button {
+  /* .button {
     display: flex;
     flex-direction: column;
     width: 25%;
-  }
+  } */
   
-  .button a {
+  /* .button a {
     width: 90%;
-  }
+  } */
+
  .link {
   margin: 5px 0;
  }
-  figure {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  figure img {
-    width:100%;
-  }
-  figcaption {
-    margin:15px;
-    width: 80%;
-  }
+
 }
 
 @media (max-width:500px)  {
